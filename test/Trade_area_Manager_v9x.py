@@ -284,7 +284,7 @@ def savemap(event):
     if cnt2 != cnt-1:
         cnt2 = cnt-1
     m.save("map"+str(cnt2)+".html")
-    button_3.Disable()
+    #button_3.Disable()
 
 def main():
     global cnt
